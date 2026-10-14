@@ -15,5 +15,15 @@ public class MathApp {
         int truckPrice = 40000;
         int lowestPrice = Math.min(carPrice, truckPrice);
         System.out.println("The lowest price is $" + lowestPrice + ".");
+
+        // Question 3: Area of a circle
+        double radius = 7.25;
+        double area = 3.14 * (Math.pow(radius, 2));
+        System.out.println("The area of the circle is approximately " + area + ".");
+
+        // Question 4: Square root
+        double num = 5.0;
+        double squareRoot = Math.sqrt(num);
+        System.out.println("The square root of " + num + " is approximately " + squareRoot + ".");
     }
 }
