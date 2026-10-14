@@ -2,7 +2,6 @@ package com.pluralsight;
 
 public class MathApp {
     public static void main(String[] args) {
-        // STEP 1
         // Question 1: Bob and Gary's salary comparison
         int bobSalary, garySalary, highestSalary;
         bobSalary = 55000;
@@ -25,5 +24,9 @@ public class MathApp {
         double num = 5.0;
         double squareRoot = Math.sqrt(num);
         System.out.println("The square root of " + num + " is approximately " + squareRoot + ".");
+
+        // Question 5: Distance between points
+        // Distance formula: sqrt of ((x2 - x1)^2 + (y2 - y1)^2)
+        int x1 = 5, y1 = 10, x2 = 85, y2 = 50;
     }
 }
