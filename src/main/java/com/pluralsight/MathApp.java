@@ -18,7 +18,7 @@ public class MathApp {
 
         // Question 3: Area of a circle
         double radius = 7.25;
-        double area = 3.14 * (Math.pow(radius, 2));
+        double area = Math.PI * Math.pow(radius, 2);
         System.out.println("The area of the circle is approximately " + area + ".");
 
         // Question 4: Square root
